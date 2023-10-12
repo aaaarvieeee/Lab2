@@ -7,6 +7,7 @@ import {
 } from 'react-native';
 
 export default function ToDoForm() {
+  return(
     <View style={styles.form}>
         <TextInput
         style={styles.input}
@@ -14,6 +15,7 @@ export default function ToDoForm() {
         />
         <Button title="Add" />
     </View>
+  )
 }
 
 const styles = StyleSheet.create({

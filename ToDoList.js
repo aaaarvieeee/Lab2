@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 
 export default function ToDoList() {
+  return(
     <ScrollView>
         <Pressable>
         <View style={[styles.task, styles.completed]}>
@@ -25,6 +26,7 @@ export default function ToDoList() {
         </View>
         </Pressable>
     </ScrollView>
+  )
 }
 
 const styles = StyleSheet.create({
